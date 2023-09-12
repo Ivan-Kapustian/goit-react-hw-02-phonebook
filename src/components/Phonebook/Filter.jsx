@@ -5,7 +5,7 @@ class Filter extends Component {
     const { filter, change } = this.props;
     return (
       <label>
-        Фільтр по імені
+        Find contacts by name
         <input type="text" value={filter} onChange={change} />
       </label>
     );
